@@ -28,3 +28,9 @@ radar-tracker/
 ```bash
 pip install -r requirements.txt
 
+## Demo
+
+![Radar Tracking Demo](assets/3dgifmaker76786.gif)
+## Screenshot
+
+![Radar Tracking Screenshot](assets/Opera%20Snapshot_2025-12-25_212610_127.0.0.1.png)
