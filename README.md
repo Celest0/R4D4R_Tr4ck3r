@@ -5,15 +5,15 @@ What this is:
 A radar simulation + Kalman-filter tracker with a minimal basic web frontend showing live target tracking, using simulated Data.
 
 radar-tracker/
-├── backend/
-│   ├── tracker.py       # Updates target and Kalman filter
-│   ├── kalman.py        # Kalman filter implementation
-│   ├── simulator.py     # Target simulator with noise
-│   └── app.py           # Flask backend serving live data
-├── frontend/
-│   └── index.html       # Web frontend showing measurements & estimates
-├── requirements.txt     # Python dependencies
-└── README.md
+backend/
+tracker.py       # Updates target and Kalman filter
+kalman.py        # Kalman filter implementation
+ simulator.py     # Target simulator with noise
+ app.py           # Flask backend serving live data
+frontend/
+ index.html       # Web frontend showing measurements & estimates
+requirements.txt     # Python dependencies
+README.md
 
 Install dependencies
 pip install -r requirements.txt
