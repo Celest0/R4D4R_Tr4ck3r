@@ -22,17 +22,18 @@ radar-tracker/
 └── README.md  
 
 ---
-## Demo
 
-![Radar Tracking Demo](assets/3dgifmaker76786.gif)
-## Screenshot
+## Final Result
 
 ![Radar Tracking Screenshot](assets/Opera%20Snapshot_2025-12-25_212610_127.0.0.1.png)
-## Install Dependencies
 
-```bash
+## Enjoy!
+![Radar Tracking Demo](assets/3dgifmaker76786.gif)
 
-pip install -r requirements.txt
+
+
+
+
 
 
 
