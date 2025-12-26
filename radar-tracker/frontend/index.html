@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>R4D4R Tr4ck3r</title>
+</head>
+<body>
+  <h2>Radar Tracking Simulation</h2>
+  <pre id="output"></pre>
+
+  <script>
+    async function poll() {
+      try {
+        const res = await fetch("/data");
+        const data = await res.json();
+        document.getElementById("output").textContent =
+          JSON.stringify(data, null, 2);
+      } catch (e) {
+        document.getElementById("output").textContent = "Error fetching data.";
+      }
+    }
+    setInterval(poll, 500);
+  </script>
+</body>
+</html>
